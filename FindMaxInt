@@ -1,9 +1,3 @@
-/*Write a C program that has two functions named findMax and countOdd. Each
-function will take two arguments, an integer array and the number of elements in the
-array.findMax returns the largest element. countOdd returns the count of the
-number of odd elements in the array. The main function should call findMax and
-countOdd twice with different arrays and then print out the results of calling the
-functions.*/
 
 #include <stdio.h>
 
