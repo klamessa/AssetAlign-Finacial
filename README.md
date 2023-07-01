@@ -1,1 +1,3 @@
-#C funcitions, avg arrays and odd count
+_Active Project_
+Basic Bank Account with Checking and Credit Account, with front & back end components
+
