@@ -7,4 +7,12 @@ public class CheckingView {
         this.account_balance =new SimpleStringProperty(account_bal);
     
     }
+
+    public String getChecking_account_number() {
+        return Checking_account_number.get();
+    }
+
+    public void setChecking_account_number(String checking_acc_number){
+        this.Checking_account_number.set(checking_acc_number);
+    }
 }
