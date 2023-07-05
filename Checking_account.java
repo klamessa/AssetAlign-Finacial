@@ -15,4 +15,8 @@ public class Checking_account {
     public void setChecking_account_number(String checking_acc_number){
         this.Checking_account_number.set(checking_acc_number);
     }
+
+    public String getAccount_balance(){
+        return account_balance.get();
+    }
 }
