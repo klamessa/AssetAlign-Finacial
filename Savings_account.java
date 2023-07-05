@@ -8,3 +8,12 @@ public class Savings_account {
         this.Account_number =new SimpleStringProperty(acc_number);
         this.account_balance =new SimpleStringProperty(acc_bal);
 
+        
+        public String getSavings_account_number() {
+        return Savings_account_number.get();
+        }
+
+    public void setSavings_account_number(String saving_acc_number){
+        this.Savings_account_number.set(saving_acc_number);
+    }
+}
