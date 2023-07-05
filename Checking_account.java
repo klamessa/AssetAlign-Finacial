@@ -19,4 +19,7 @@ public class Checking_account {
     public String getAccount_balance(){
         return account_balance.get();
     }
+     public void setAccount_balance(String account_bal){
+        this.account_balance.set(account_bal);
+    }
 }
