@@ -16,5 +16,14 @@ protected void Home(ActionEvent event) throws IOException {
         stage.setResizable(false);
         stage.centerOnScreen();
         stage.show();
-    }
+    } 
+public void validateLogin(ActionEvent event ) throws SQLException, IOException {
+        Connectivity connectivity = new Connectivity();
+        Connection connection = connectivity.getConnection();
+        String query = "select count(1) from  customer_personal_info where     username = ? and password = ? ";
+        PreparedStatement statement = connection.prepareStatement(query);
+        statement.setString(1,nameTextField.getText());
+        statement.setString(2,passwordField.getText());
+        ResultSet resultSet = statement.executeQuery();
+        
 }
