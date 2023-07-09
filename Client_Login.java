@@ -25,5 +25,8 @@ public void validateLogin(ActionEvent event ) throws SQLException, IOException {
         statement.setString(1,nameTextField.getText());
         statement.setString(2,passwordField.getText());
         ResultSet resultSet = statement.executeQuery();
-    }      
+        while (resultSet.next()) {
+            System.out.println(resultSet.getInt(1));
+        }
+    }  
 }
