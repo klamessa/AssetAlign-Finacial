@@ -27,6 +27,12 @@ public void validateLogin(ActionEvent event ) throws SQLException, IOException {
         ResultSet resultSet = statement.executeQuery();
         while (resultSet.next()) {
             System.out.println(resultSet.getInt(1));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+                scene = new Scene(root);
+                stage.setScene(scene);
+                stage.setResizable(false);
+                stage.centerOnScreen();
+                stage.show();
         }
     }  
 }
