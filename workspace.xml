@@ -5,4 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e212806-8cd9-490f-bc59-0b923c2cb491" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
