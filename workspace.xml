@@ -32,7 +32,9 @@
   </component>
   <component name="ProjectId" id="2RxGz7ftPChZopXTljhi9gnIXn3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
+  <component name="ProjectViewState"> 
+  <option name="hideEmptyMiddlePackages" value="true" />
+  <option name="showLibraryContents" value="true" />
     
     
   
