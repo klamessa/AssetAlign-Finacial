@@ -54,6 +54,14 @@ public class BotFunction {
        
         userInput.clear();
     }
-
+    @FXML
+        protected void home(ActionEvent event) throws IOException {
+            root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("LandingPage.fxml")));
+            stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            scene = new Scene(root);
+            stage.setScene(scene);
+            stage.show();
+        }
+    }
     
 
