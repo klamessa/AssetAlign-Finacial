@@ -42,6 +42,18 @@ public class BotFunction {
     private Scene scene;
     private Parent root;
 
- 
+    @FXML
+    private void handleUserInput(ActionEvent event) {
+        String input = userInput.getText(); // Get the user's input from the text field
+
+        String response = "You said: " + input;
+
+     
+        console.appendText("\n" + response);
+
+       
+        userInput.clear();
+    }
+
     
 
