@@ -44,7 +44,7 @@ public class BotFunction {
 
     @FXML
     private void handleUserInput(ActionEvent event) {
-        String input = userInput.getText(); // Get the user's input from the text field
+        String input = userInput.getText();
 
         String response = "You said: " + input;
 
