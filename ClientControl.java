@@ -31,4 +31,13 @@ public class ClientLoginController {
     private Stage stage; private Scene scene; private Parent root;
     @FXML
     private String username,password;
-
+    
+    protected void SignUpPage(ActionEvent event) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("SignUpPage.fxml"));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.setResizable(false);
+        stage.centerOnScreen();
+        stage.show();
+    }
