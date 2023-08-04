@@ -69,6 +69,20 @@ public class MainControllermodif implements Initializable {
             stage.centerOnScreen();
             stage.show();
         }
+
+     @FXML
+    protected void aboutUsPage(ActionEvent event) throws IOException {
+        fxml = FXMLLoader.load(getClass().getResource("AboutUs.fxml"));
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(fxml);
+        stage.setScene(scene);
+        stage.setResizable(false);
+        stage.centerOnScreen();
+        stage.show();
+    }
+
+
+   
    
 
 
