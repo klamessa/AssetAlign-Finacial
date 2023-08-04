@@ -43,6 +43,33 @@ public class MainControllermodif implements Initializable {
         Translation();
     }
 
+        private void Translation() {
+        TranslateTransition transition = new TranslateTransition(Duration.seconds(1), vbox);
+        transition.setToX(vbox.getLayoutX() * 20);
+        transition.play();
+        transition.setOnFinished((e) ->{
+            try{
+                fxml = FXMLLoader.load(getClass().getResource("LoginPage.fxml"));
+                vbox.getChildren().removeAll();
+                vbox.getChildren().setAll(fxml);
+            }catch(IOException ex){
+
+            }
+        });
+    }
+
+
+    @FXML
+        protected void AdminDash(ActionEvent event) throws IOException {
+            fxml = FXMLLoader.load(getClass().getResource("AdminDashboard.fxml"));
+            Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            Scene scene = new Scene(fxml);
+            stage.setScene(scene);
+            stage.setResizable(false);
+            stage.centerOnScreen();
+            stage.show();
+        }
+   
 
 
 
