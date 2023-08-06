@@ -36,7 +36,24 @@ public class SignupPageController {
             usernameLabel, passwordLabel,
             verifySSNLabel, verifyPhoneLabel, verifyAgeLabel,
              SignupLabel,  progressLabel, progressPercentLabel ;
+  @FXML
+  private TextField firstNameTF,middleNameTF,lastNameTF,
+            ssnTF, phoneNumberTF, emailTF,
+            streetTF, cityTF, apartmentTF, zipCodeTF,
+            genderTF, maritalStatusTF,
+            usernameTF, passwordTF ;
 
+    private String genderSet = "";
+    private String maritalSet = "";
+    @FXML
+    private RadioButton maleButton, nonbinaryButton, femaleButton, singleButton, marriedButton;
+    @FXML
+    private ToggleGroup gendertoggle;
+    @FXML
+    private ToggleGroup martialtoggle;
+
+
+    
 
   
 
