@@ -65,7 +65,18 @@ public class SignupPage {
     @FXML
     private DatePicker datePicker;
 
+
     
+    @FXML
+    private AnchorPane anchorPane;
+
+   
+    @FXML
+    private int age;
+
+
+    
+   
     
 
     
