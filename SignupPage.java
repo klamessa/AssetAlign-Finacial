@@ -74,6 +74,23 @@ public class SignupPage {
     @FXML
     private int age;
 
+     @FXML
+    public void getDate(ActionEvent event) {
+        LocalDate date = datePicker.getValue();
+    }
+
+    @FXML
+    protected void Home(ActionEvent event) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("MainModified.fxml"));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.setResizable(false);
+        stage.centerOnScreen();
+        stage.show();
+    }
+    
+
 
     
    
