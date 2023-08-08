@@ -20,7 +20,7 @@ import java.time.LocalDate;
 
 
 @SuppressWarnings("ALL")
-public class SignupPageController {
+public class SignupPage {
     public Label ssnLabel1;
     public Label emailLabel1;
     public ToggleGroup maritaltoggle;
@@ -51,7 +51,7 @@ public class SignupPageController {
     private ToggleGroup gendertoggle;
     @FXML
     private ToggleGroup martialtoggle;
-
+    
 
     
 
