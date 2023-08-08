@@ -51,6 +51,21 @@ public class SignupPage {
     private ToggleGroup gendertoggle;
     @FXML
     private ToggleGroup martialtoggle;
+
+    private Stage stage;
+    private Scene scene;
+    private Parent root;
+
+
+  
+    @FXML
+    private Button LoginButton, Home, SignupButton, nextButton,
+            progressButton;
+
+    @FXML
+    private DatePicker datePicker;
+
+    
     
 
     
