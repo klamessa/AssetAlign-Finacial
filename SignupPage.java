@@ -101,6 +101,12 @@ public class SignupPage {
         stage.show();
     }
 
+     public boolean CheckDate(){
+        if (datePicker.getValue()==null){
+            return false;
+        }
+        return true;
+    }
    
     
 
