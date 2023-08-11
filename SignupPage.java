@@ -125,7 +125,33 @@ public class SignupPage {
             } else if (!verifyTextfield[i].isBlank()) {
                 textFields[i].setStyle("-fx-text-box-border: #D3D3D3; -fx-focus-color: #D3D3D3;");
             }
-        }
+        } 
+
+        if (ssnTF.getText().length() != 9 || phoneNumberTF.getText().length() != 10 || checkSSNInfo() == false || checkPhoneInfo() == false || ageVerify() == false) {
+
+            if (ssnTF.getText().length() != 9 || checkSSNInfo() == false) {
+                ssnTF.setStyle("-fx-text-box-border: #ff0000; -fx-focus-color: #ff0000;");
+                verifySSNLabel.setText("Your Social Security Number is invalid.");
+            } else {
+                verifySSNLabel.setText("");
+            }
+
+            if (checkPhoneInfo() == false || phoneNumberTF.getText().length() != 10) {
+                phoneNumberTF.setStyle("-fx-text-box-border: #ff0000; -fx-focus-color: #ff0000;");
+                verifyPhoneLabel.setText("Your phone number is invalid.");
+            } else {
+                verifyPhoneLabel.setText("");
+            }
+            if (ageVerify() == false) {
+                datePicker.setStyle("-fx-text-box-border: #ff0000; -fx-focus-color: #ff0000;");
+                verifyAgeLabel.setText("You are not eligable to create an account");
+            } else {
+                verifyAgeLabel.setText("");
+            }
+            if(!maleButton.isSelected() || !femaleButton.isSelected() || !nonbinaryButton.isSelected()){
+                genderLabel.setStyle("-fx-text-box-border: #ff0000; -fx-focus-color: #ff0000;");
+            }
+
         
 
     
