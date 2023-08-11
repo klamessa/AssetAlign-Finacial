@@ -119,6 +119,14 @@ public class SignupPage {
             datePicker.setStyle("-fx-text-box-border: #ff0000; -fx-focus-color: #ff0000;");
         }
 
+                for (int i = 0; i < verifyTextfield.length; i++) {
+            if (verifyTextfield[i].isBlank()) {
+                textFields[i].setStyle("-fx-text-box-border: #ff0000; -fx-focus-color: #ff0000;");
+            } else if (!verifyTextfield[i].isBlank()) {
+                textFields[i].setStyle("-fx-text-box-border: #D3D3D3; -fx-focus-color: #D3D3D3;");
+            }
+        }
+        
 
     
 
