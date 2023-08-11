@@ -107,7 +107,19 @@ public class SignupPage {
         }
         return true;
     }
-   
+
+    public void verify(ActionEvent actionEvent) throws Exception {
+
+        String[] verifyTextfield = new String[]{firstNameTF.getText(), lastNameTF.getText(), ssnTF.getText(),
+                usernameTF.getText(), passwordTF.getText(), phoneNumberTF.getText(), emailTF.getText(), streetTF.getText(), cityTF.getText(), zipCodeTF.getText(), apartmentTF.getText()};
+
+        TextField[] textFields = new TextField[]{firstNameTF, lastNameTF, ssnTF, usernameTF, passwordTF, phoneNumberTF, emailTF, streetTF, cityTF, zipCodeTF, apartmentTF};
+
+        if(CheckDate()==false) {
+            datePicker.setStyle("-fx-text-box-border: #ff0000; -fx-focus-color: #ff0000;");
+        }
+
+
     
 
 
