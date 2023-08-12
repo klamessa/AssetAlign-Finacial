@@ -161,6 +161,13 @@ public class SignupPage {
     } 
 
     public boolean checkSSNInfo() throws Exception, ArithmeticException {
+      try {
+            int intValue = Integer.parseInt(ssnTF.getText());
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
+    }
 
       
     
