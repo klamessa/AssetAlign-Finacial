@@ -158,7 +158,12 @@ public class SignupPage {
             verifyAgeLabel.setText("");
             saveInfo(actionEvent);
         }
-    }
+    } 
+
+    public boolean checkSSNInfo() throws Exception, ArithmeticException {
+
+      
+    
 
         
 
