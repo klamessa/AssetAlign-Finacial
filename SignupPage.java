@@ -169,6 +169,26 @@ public class SignupPage {
         }
     }
 
+    public boolean ageVerify() {
+        LocalDate today = LocalDate.now();
+        LocalDate birthday = LocalDate.of(datePicker.getValue().getYear(),
+                datePicker.getValue().getMonth(),
+                datePicker.getValue().getDayOfMonth());
+        LocalDate verifyAge = today.minusYears(birthday.getYear());
+        if (verifyAge.getYear() < 16) {
+            return false;
+        } else if (verifyAge.getYear() == 16 && today.getMonthValue() < birthday.getMonthValue()) {
+            return false;
+        } else if (verifyAge.getYear() == 16 && today.getMonthValue() == birthday.getMonthValue() && today.getDayOfMonth() < birthday.getDayOfMonth()) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+
+
+
       
     
 
