@@ -186,6 +186,19 @@ public class SignupPage {
         }
     }
 
+    public String genderCheck() {
+
+        if (maleButton.isSelected()) {
+            genderSet = "M";
+        } else if (femaleButton.isSelected()) {
+            genderSet = "F";
+
+        } else if (nonbinaryButton.isSelected()) {
+            genderSet = "O";
+        }
+        return genderSet;
+    }
+
 
 
 
