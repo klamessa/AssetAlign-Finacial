@@ -152,6 +152,14 @@ public class SignupPage {
                 genderLabel.setStyle("-fx-text-box-border: #ff0000; -fx-focus-color: #ff0000;");
             }
 
+            } else {
+            verifySSNLabel.setText("");
+            verifyPhoneLabel.setText("");
+            verifyAgeLabel.setText("");
+            saveInfo(actionEvent);
+        }
+    }
+
         
 
     
