@@ -197,8 +197,14 @@ public class SignupPage {
             genderSet = "O";
         }
         return genderSet;
-    }
-
+    } 
+    
+    public void saveInfo(ActionEvent actionEvent) throws SQLException, IOException {
+        Connectivity connectivity = new Connectivity();
+        Connection connection = connectivity.getConnection();
+        Object object = new Object();
+        Customer customer = new Customer(firstNameTF.getText(),
+        
 
 
 
