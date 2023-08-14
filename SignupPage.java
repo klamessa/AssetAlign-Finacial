@@ -204,6 +204,15 @@ public class SignupPage {
         Connection connection = connectivity.getConnection();
         Object object = new Object();
         Customer customer = new Customer(firstNameTF.getText(),
+            lastNameTF.getText(),
+            middleNameTF.getText(),
+            LocalDate.of(datePicker.getValue().getYear(),
+            datePicker.getValue().getMonth(),
+            datePicker.getValue().getDayOfMonth()),
+            ssnTF.getText(),
+            phoneNumberTF.getText(),
+          
+                                        
         
 
 
