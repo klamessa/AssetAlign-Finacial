@@ -211,6 +211,16 @@ public class SignupPage {
             datePicker.getValue().getDayOfMonth()),
             ssnTF.getText(),
             phoneNumberTF.getText(),
+            emailTF.getText(),
+            usernameTF.getText(),
+            passwordTF.getText(),
+            streetTF.getText(),
+            cityTF.getText(),
+            zipCodeTF.getText(),
+            apartmentTF.getText(), genderCheck(), maritalCheck()
+        );
+        System.out.println(customer);
+
           
                                         
         
