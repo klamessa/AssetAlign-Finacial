@@ -219,8 +219,14 @@ public class SignupPage {
             zipCodeTF.getText(),
             apartmentTF.getText(), genderCheck(), maritalCheck()
         );
-        System.out.println(customer);
+        System.out.println(customer); 
 
+        String query = "insert into customer_personal_info(" + "First_name,Last_name,middle_name,date_of_birth,address,zipp_code,Country,states,city,contact_no, ssn,username,password,email,gender,marital_status) values "
+                + "()";
+        PreparedStatement statement = connection.prepareStatement(query);
+        statement.setString(1, customer.getFirstName());
+        statement.setString(2, customer.getLastName());
+        
           
                                         
         
