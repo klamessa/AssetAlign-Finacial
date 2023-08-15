@@ -226,6 +226,11 @@ public class SignupPage {
         PreparedStatement statement = connection.prepareStatement(query);
         statement.setString(1, customer.getFirstName());
         statement.setString(2, customer.getLastName());
+        statement.setString(3, customer.getMiddleName());
+        statement.setString(4, customer.getDateOfBirth().toString());
+        statement.setString(5, customer.getStreet());
+        statement.setString(6, customer.getZipCode());
+
         
           
                                         
