@@ -233,6 +233,9 @@ public class SignupPage {
         statement.setString(7, "US");
         statement.setString(8, "CA");
         statement.setString(9, customer.getCity());
+        statement.setString(10, customer.getPhoneNumber());
+        statement.setString(11, customer.getSSN());
+        statement.setString(12, customer.getUsername());
        
 
         
