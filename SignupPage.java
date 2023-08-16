@@ -239,6 +239,11 @@ public class SignupPage {
         statement.setString(13, customer.getPassword());
         statement.setString(14, customer.getEmail());
         statement.setString(15, customer.getGender());
+        statement.setString(16, customer.getMartialStatus());
+        statement.executeUpdate();
+        System.out.println(customer.getEmail());
+        connection.close();
+    }
        
 
         
