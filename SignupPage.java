@@ -244,6 +244,15 @@ public class SignupPage {
         System.out.println(customer.getEmail());
         connection.close();
     }
+
+    public void CheckIfUserExists() throws SQLException {
+        Connectivity connectivity = new Connectivity();
+        Connection connection = connectivity.getConnection();
+        String query = "SELECT * FROM customer_personal_info WHERE ssn = ?";
+    }
+
+}
+
        
 
         
