@@ -230,6 +230,10 @@ public class SignupPage {
         statement.setString(4, customer.getDateOfBirth().toString());
         statement.setString(5, customer.getStreet());
         statement.setString(6, customer.getZipCode());
+        statement.setString(7, "US");
+        statement.setString(8, "CA");
+        statement.setString(9, customer.getCity());
+       
 
         
           
