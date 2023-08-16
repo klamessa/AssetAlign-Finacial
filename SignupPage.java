@@ -236,6 +236,9 @@ public class SignupPage {
         statement.setString(10, customer.getPhoneNumber());
         statement.setString(11, customer.getSSN());
         statement.setString(12, customer.getUsername());
+        statement.setString(13, customer.getPassword());
+        statement.setString(14, customer.getEmail());
+        statement.setString(15, customer.getGender());
        
 
         
