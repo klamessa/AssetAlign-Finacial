@@ -250,8 +250,8 @@ public class SignupPage {
         Connection connection = connectivity.getConnection();
         String query = "SELECT * FROM customer_personal_info WHERE ssn = ?";
     }
-
 }
+
 
        
 
