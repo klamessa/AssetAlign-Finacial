@@ -62,6 +62,18 @@ public class BotFunction {
             stage.setScene(scene);
             stage.show();
         }
+
+    public void SendMessage(ActionEvent event) {
+
+
+        if (userInput.getText().contains("hi") || userInput.getText().contains("hello") || userInput.getText().contains("hey") || userInput.getText().contains("howdy")) {
+            Console.setText("Hello, this is Summit Financial Corp. ChatBot. How may I assist you?");
+        }
+        else if (userInput.getText().contains("transfer funds")){
+            Console.setText("You can transfer funds by clicking on the Transaction button on your dashboard page.");
+        }
+
+        }
     }
     
 
