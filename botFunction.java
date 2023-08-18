@@ -72,8 +72,13 @@ public class BotFunction {
         else if (userInput.getText().contains("transfer funds")){
             Console.setText("You can transfer funds by clicking on the Transaction button on your dashboard page.");
         }
-
+         else if(userInput.getText().contains("mobile deposit")){
+            Console.setText("This mobile deposit is not supported by this institution.");
         }
+        else if (userInput.getText().contains("closing account")){
+            Console.setText("You will have to go to the nearest branch and speak with a representative for more information.");
+        }
+        
     }
     
 
