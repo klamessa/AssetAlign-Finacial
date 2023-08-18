@@ -78,7 +78,9 @@ public class BotFunction {
         else if (userInput.getText().contains("closing account")){
             Console.setText("You will have to go to the nearest branch and speak with a representative for more information.");
         }
-        
+        else{
+
+                Console.setText("Oops, didn't get that! Try entering again!");    
     }
     
 
