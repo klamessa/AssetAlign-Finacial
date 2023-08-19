@@ -23,9 +23,9 @@ public class BotFunction {
     @FXML
     private Button minButton;
     @FXML
-    private Label chatbotNameLabel;
+    private Label botfunctionNameLabel;
     @FXML
-    private ImageView chatbotAvatar;
+    private ImageView botfunctionAvatar;
     @FXML
     private Circle avatarBackground;
     @FXML
