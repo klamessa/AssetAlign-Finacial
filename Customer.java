@@ -11,4 +11,15 @@ public class Customer {
     private String email;
     private String username;
     private String password;
+    private String accountNumber;
+    private String SSN;
+    private String street;
+    private String city;
+    private String state;
+    private String zipCode;
+    private String aptNumber;
+    private LocalDate dateOfBirth;
+    private String gender;
+    private String martialStatus;
+
 
