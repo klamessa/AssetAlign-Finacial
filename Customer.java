@@ -63,6 +63,14 @@ public class Customer {
                     String aptNumber,
                     String gender,
                     String martialStatus) {
+
+                    this.firstName = firstName;
+                    this.lastName = lastName;
+                    this.middleName = middleName;
+                    this.dateOfBirth = dateOfBirth;
+                    this.SSN = SSN;
+                    this.phoneNumber = phoneNumber;
+                    this.email = email;
     }
 
 
