@@ -23,3 +23,27 @@ public class Customer {
     private String martialStatus;
 
 
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", middleName='" + middleName + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", email='" + email + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", accountNumber='" + accountNumber + '\'' +
+                ", SSN='" + SSN + '\'' +
+                ", street='" + street + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", zipCode='" + zipCode + '\'' +
+                ", gender='" + gender + '\'' +
+                ", aptNumber='" + aptNumber + '\'' +
+                ", dateOfBirth=" + dateOfBirth + '\'' +
+                ", martialStatus=" + martialStatus+
+                '}';
+    }
+
+
