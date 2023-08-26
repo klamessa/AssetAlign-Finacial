@@ -46,4 +46,23 @@ public class Customer {
                 '}';
     }
 
+    
+    public Customer(String firstName,
+                    String lastName,
+                    String middleName,
+                    LocalDate dateOfBirth,
+                    String SSN,
+                    String phoneNumber,
+                    String email,
+                    String username,
+                    String password,
+                    String street,
+                    String city,
+                    String state,
+                    String zipCode,
+                    String aptNumber,
+                    String gender,
+                    String martialStatus) {
+    }
+
 
