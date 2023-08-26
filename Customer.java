@@ -71,6 +71,15 @@ public class Customer {
                     this.SSN = SSN;
                     this.phoneNumber = phoneNumber;
                     this.email = email;
+                    this.username = username;
+                    this.password = password;
+                    this.street = street;
+                    this.city = city;
+                    this.state = state;
+                    this.zipCode = zipCode;
+                    this.aptNumber = aptNumber;
+                    this.gender = gender;
+                    this.martialStatus = martialStatus;
     }
 
 
