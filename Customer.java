@@ -81,5 +81,26 @@ public class Customer {
                     this.gender = gender;
                     this.martialStatus = martialStatus;
     }
+    public String getMartialStatus() {
+        return martialStatus;
+    }
+
+    public void setMartialStatus(String martialStatus) {
+        this.martialStatus = martialStatus;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+   
+
 
 
