@@ -118,6 +118,22 @@ public class Customer {
     public void setState(String state) {
         this.state = state;
     }
+    
+    public String getZipCode() {
+        return zipCode;
+    }
+
+    public void setZipCode(String zipCode) {
+        this.zipCode = zipCode;
+    }
+
+    public String getAptNumber() {
+        return aptNumber;
+    }
+
+    public void setAptNumber(String aptNumber) {
+        this.aptNumber = aptNumber;
+    }
 
    
 
