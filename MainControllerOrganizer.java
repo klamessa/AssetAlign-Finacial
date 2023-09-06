@@ -37,7 +37,21 @@ public class MainControllerOrganizer implements Initializable {
         Translation();
     }
 
-  
+    private void Translation() {
+        TranslateTransition transition = new TranslateTransition(Duration.seconds(1), vbox);
+        transition.setToX(vbox.getLayoutX() * 20);
+        transition.play();
+        transition.setOnFinished((e) ->{
+            try{
+                fxml = FXMLLoader.load(getClass().getResource("LoginPage.fxml"));
+                vbox.getChildren().removeAll();
+                vbox.getChildren().setAll(fxml);
+            }catch(IOException ex){
+    
+            }
+        });
+    }
+
 
 
     
