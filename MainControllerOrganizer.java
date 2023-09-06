@@ -26,3 +26,12 @@ public class MainControllerOrganizer implements Initializable {
     private VBox vbox;
     @FXML
     private Parent fxml;
+
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
+        Translation();
+    }
+    
+
+
+    
