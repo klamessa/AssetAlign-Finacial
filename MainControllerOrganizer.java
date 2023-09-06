@@ -31,7 +31,13 @@ public class MainControllerOrganizer implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         Translation();
     }
-    
+
+    @FXML
+    private void open_Login(ActionEvent event){
+        Translation();
+    }
+
+  
 
 
     
