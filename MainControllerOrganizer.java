@@ -21,7 +21,7 @@ import java.util.ResourceBundle;
 public class MainControllerOrganizer implements Initializable {
 
     @FXML
-    private Button LoginButton,aboutUsButton;
+    private Button LoginButton,aboutMeButton;
     @FXML
     private VBox vbox;
     @FXML
@@ -63,8 +63,8 @@ public class MainControllerOrganizer implements Initializable {
             stage.show();
         }
           @FXML
-        protected void aboutUsPage(ActionEvent event) throws IOException {
-            fxml = FXMLLoader.load(getClass().getResource("AboutUs.fxml"));
+        protected void informationPage(ActionEvent event) throws IOException {
+            fxml = FXMLLoader.load(getClass().getResource("AboutMe.fxml"));
             Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
             Scene scene = new Scene(fxml);
             stage.setScene(scene);
