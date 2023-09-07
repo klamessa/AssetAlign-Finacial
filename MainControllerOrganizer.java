@@ -52,6 +52,8 @@ public class MainControllerOrganizer implements Initializable {
         });
     }
 
-
+    @FXML
+        protected void AdminDash(ActionEvent event) throws IOException {
+        }
 
     
