@@ -72,6 +72,13 @@ public class MainControllerOrganizer implements Initializable {
             stage.centerOnScreen();
             stage.show();
         }
+        @FXML
+        private void open_signup(ActionEvent event){
+            });
+        }
+
+
+    }
 }
 
     
