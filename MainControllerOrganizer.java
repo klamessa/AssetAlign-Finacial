@@ -74,10 +74,15 @@ public class MainControllerOrganizer implements Initializable {
         }
         @FXML
         private void open_signup(ActionEvent event){
-             TranslateTransition transition = new TranslateTransition(Duration.seconds(1), vbox);
+            TranslateTransition transition = new TranslateTransition(Duration.seconds(1), vbox);
             transition.setToX(0);
             transition.play();
             transition.setOnFinished((e) ->{
+            try{
+                    fxml = FXMLLoader.load(getClass().getResource("SignUp.fxml"));
+                    vbox.getChildren().removeAll();
+                    vbox.getChildren().setAll(fxml);
+                }catch(IOException ex){
                     
                 }
             });
