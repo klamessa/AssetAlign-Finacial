@@ -7,8 +7,9 @@ module com.example.demo {
     requires validatorfx;
     requires java.sql;
     requires de.jensd.fx.glyphs.fontawesome;
-
-
-
+    opens com.example.demo to javafx.fxml;
+    exports com.example.demo;
+    opens com.example.demo.Admin to javafx.fxml;
+    exports com.example.demo.Admin;
 }
   
