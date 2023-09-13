@@ -28,6 +28,19 @@ public class TransactionView {
         this.Transaction_number.set(Transaction_Number);
     }
 
+    
+    public String getAccount_number() {
+        return Account_number.get();
+    }
+
+    public void setAccount_number(String account_Number) {
+        this.Account_number.set(account_Number);
+    }
+
+    public String getDate_Created()  {
+        return Date_Created.get();
+    }
+
 
 
 
