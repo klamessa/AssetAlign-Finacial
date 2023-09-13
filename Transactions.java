@@ -20,4 +20,14 @@ public class TransactionView {
 
     }
 
+    public String getTransaction_number() {
+        return Transaction_number.get();
+    }
+
+    public void setTransaction_number(String Transaction_Number) {
+        this.Transaction_number.set(Transaction_Number);
+    }
+
+
+
 
