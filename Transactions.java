@@ -1,4 +1,4 @@
-package com.example.demo.Admin;
+package com.AssetAlign.Admin;
 
 import javafx.beans.property.SimpleStringProperty;
 
