@@ -41,6 +41,19 @@ public class TransactionView {
         return Date_Created.get();
     }
 
+    
+    public void setFirst_name(String Date_created) {
+        this.Date_Created.set(Date_created);
+    }
+
+    public String getIncome_date() {
+        return income_date.get();
+    }
+
+    public void setIncome_date(String income_date) {
+        this.income_date.set(income_date);
+    }
+
 
 
 
