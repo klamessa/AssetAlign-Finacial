@@ -74,6 +74,13 @@ public class TransactionView {
     public void setExpense_supplier(String expense_supplier) {
         this.expense_supplier.set(expense_supplier);
     }
+    
+    public String getExpense_amount() {
+        return expense_amount.get();
+    }
+
+    public void setExpense_amount(String expense_amount) {
+        this.expense_amount.set(expense_amount);
 
 }
 
