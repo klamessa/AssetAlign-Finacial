@@ -54,6 +54,17 @@ public class TransactionView {
         this.income_date.set(income_date);
     }
 
+    public void setIncome_amount(String income_amount) {
+        this.income_amount.set(income_amount);
+    }
+
+    public String getExpense_date() {
+        return expense_date.get();
+    }
+
+}
+
+
 
 
 
