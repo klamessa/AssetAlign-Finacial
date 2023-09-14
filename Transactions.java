@@ -62,6 +62,19 @@ public class TransactionView {
         return expense_date.get();
     }
 
+    
+    public void setExpense_date(String expense_date) {
+        this.expense_date.set(expense_date);
+    }
+
+    public String getExpense_supplier() {
+        return expense_supplier.get();
+    }
+
+    public void setExpense_supplier(String expense_supplier) {
+        this.expense_supplier.set(expense_supplier);
+    }
+
 }
 
 
