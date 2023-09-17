@@ -9,3 +9,13 @@ public class clientSearch {
         this.Last_name =Last_name;
     }
 
+    public String getAccount_number() {
+        return Account_number;
+    }
+
+    public void setAccount_number(String account_number) {
+        Account_number = account_number;
+    }
+}
+
+
