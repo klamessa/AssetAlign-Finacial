@@ -16,6 +16,13 @@ public class clientSearch {
     public void setAccount_number(String account_number) {
         Account_number = account_number;
     }
+        public String getFirst_name() {
+        return First_name;
+    }
+
+    public void setFirst_name(String first_name) {
+        First_name = first_name;
+    }
 }
 
 
