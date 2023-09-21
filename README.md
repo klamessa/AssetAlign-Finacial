@@ -15,8 +15,8 @@ Secure: ...
 Getting Started
 If you're interested in using AssetAlign Financial or contributing to the project, follow these steps to get started:
 
-For Users -> currently unavailable 
-For Developers -> Fork the repository. -> Clone your forked repository to your local machine. -> Contribute to the project by implementing new features, fixing bugs, or improving documentation.
+For Users -> currently unavailable. 
+For Developers -> Fork the repository -> Clone your forked repository to your local machine. -> Contribute to the project by implementing new features, fixing bugs, or improving documentation.
 
 License
 ...
