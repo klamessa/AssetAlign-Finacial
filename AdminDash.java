@@ -47,6 +47,18 @@ public class AdminDash implements Initializable {
     @FXML
     private RadioButton Single_radio_btn;
     @FXML
+      private RadioButton Married_radio_btn;
+    @FXML
+    private RadioButton Male_radio_btn;
+    @FXML
+    private RadioButton Female_radio_btn;
+    @FXML
+    private RadioButton Non_binary_radio_btn;
+    //Second splitPane clients listview
+    @FXML
+    private TextField email_fld;
+    @FXML
+    private TextField Address_fld;
    
 }
 
