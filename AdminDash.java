@@ -33,6 +33,20 @@ public class AdminDash implements Initializable {
     private ToggleGroup genderStatus;
     //First splitPane create clients
     @FXML
+     private TextField FName_fld;
+    @FXML
+    private TextField MName_fld;
+    @FXML
+    private TextField Ssn_fld;
+    @FXML
+    private TextField LName_fld;
+    @FXML
+    private TextField Phone_no_fld;
+    @FXML
+    private DatePicker DOB_fld;
+    @FXML
+    private RadioButton Single_radio_btn;
+    @FXML
    
 }
 
