@@ -26,6 +26,13 @@ import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 public class AdminDash implements Initializable {
+    private Label maritalSetLabel;
+    @FXML
+    private ToggleGroup maritalStatus;
+    @FXML
+    private ToggleGroup genderStatus;
+    //First splitPane create clients
+    @FXML
    
 }
 
