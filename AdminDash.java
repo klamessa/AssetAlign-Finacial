@@ -55,6 +55,13 @@ public class AdminDash implements Initializable {
     private TextField email_fld;
     @FXML
     private TextField Address_fld;
+    private TextField city_fld;
+    @FXML
+    private TextField zipcode_fld;
+    @FXML
+    private TextField username_fld;
+    @FXML
+   
     
 }
 
