@@ -67,6 +67,13 @@ public class AdminDash implements Initializable {
     @FXML
     private CheckBox sv_acc_cb;
     @FXML
+    private TextField ck_acc_bal_fld;
+    @FXML
+    private TextField sv_acc_bal_fld;
+    @FXML
+    private Button Create_new_btn;
+    @FXML
+    private ChoiceBox state_fld;
 
     //Third Pane clients deposit
     @FXML
