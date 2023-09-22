@@ -52,11 +52,9 @@ public class AdminDash implements Initializable {
     @FXML
     private RadioButton Female_radio_btn;
     @FXML
-    private RadioButton Non_binary_radio_btn;
-    @FXML
     private TextField email_fld;
     @FXML
     private TextField Address_fld;
-   
+    
 }
 
