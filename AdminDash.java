@@ -61,6 +61,16 @@ public class AdminDash implements Initializable {
     @FXML
     private TextField username_fld;
     @FXML
+     private TextField password_fld;
+    @FXML
+    private CheckBox ck_acc_cb;
+    @FXML
+    private CheckBox sv_acc_cb;
+    @FXML
+
+    //Third Pane clients deposit
+    @FXML
+    private TextField rusername_fld;
    
     
 }
