@@ -74,8 +74,6 @@ public class AdminDash implements Initializable {
     private Button Create_new_btn;
     @FXML
     private ChoiceBox state_fld;
-
-    //Third Pane clients deposit
     @FXML
     private TextField rusername_fld;
    
