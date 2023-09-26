@@ -76,7 +76,10 @@ public class AdminDash implements Initializable {
     private ChoiceBox state_fld;
     @FXML
     private TextField rusername_fld;
-   
+
+    private void handleClicks(ActionEvent event) throws IOException {
+
+    }
     
 }
 
