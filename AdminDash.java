@@ -81,7 +81,10 @@ public class AdminDash implements Initializable {
         
         if (event.getSource() == create_c_btn) {
             pnCreateClient.toFront();
-
+        } else if (event.getSource() == Clients_btn) {
+            pnClientsListview.toFront();
+        } else if (event.getSource() == deposit_btn) {
+            pnDeposits.toFront();
     }
     
 }
