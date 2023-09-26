@@ -85,6 +85,15 @@ public class AdminDash implements Initializable {
             pnClientsListview.toFront();
         } else if (event.getSource() == deposit_btn) {
             pnDeposits.toFront();
+         } else if (event.getSource() == logout_btn) {
+            root =  FXMLLoader.load(getClass().getResource("AdminSignin.fxml"));
+            stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            scene = new Scene(root);
+            stage.setScene(scene);
+            stage.setResizable(false);
+            stage.centerOnScreen();
+            stage.show();
+        }
     }
     
 }
