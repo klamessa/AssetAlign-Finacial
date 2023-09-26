@@ -78,6 +78,9 @@ public class AdminDash implements Initializable {
     private TextField rusername_fld;
 
     private void handleClicks(ActionEvent event) throws IOException {
+        
+        if (event.getSource() == create_c_btn) {
+            pnCreateClient.toFront();
 
     }
     
