@@ -100,5 +100,6 @@ public class AdminDash implements Initializable {
 
 @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+      Connection con; 
     }
 
