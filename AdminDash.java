@@ -99,25 +99,25 @@ public class AdminDash implements Initializable {
 }
 
 @Override
-    public void initialize(URL url, ResourceBundle resourceBundle) {
-          Connection con; 
-         try {
-                con = DriverManager.getConnection("jdbc:mysql://34.68.83.162/bs_db1", "root", "1558");
-            } catch (SQLException e) {
-                throw new RuntimeException(e);
+public void initialize(URL url, ResourceBundle resourceBundle) {
+      Connection con; 
+     try {
+            con = DriverManager.getConnection("jdbc:mysql://34.68.83.162/bs_db1", "root", "1558");
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+        try {
+            ResultSet rs = con.createStatement().executeQuery("select * from customer_personal_info ");
+            while (rs.next()) {
+
+                clientsList.add(new ConnTable(rs.getString("Account_number"),rs.getString("First_name"), rs.getString("Last_name"),rs.getString("Middle_name"),rs.getString("date_of_birth"),rs.getString("address"),rs.getString("zipp_code"),rs.getString("state"),rs.getString("Country"),rs.getString("city"),rs.getString("contact_no"),rs.getString( "ssn"),rs.getString( "username"),rs.getString( "email")));
+
             }
-    
-            try {
-                ResultSet rs = con.createStatement().executeQuery("select * from customer_personal_info ");
-                while (rs.next()) {
-    
-                    clientsList.add(new ConnTable(rs.getString("Account_number"),rs.getString("First_name"), rs.getString("Last_name"),rs.getString("Middle_name"),rs.getString("date_of_birth"),rs.getString("address"),rs.getString("zipp_code"),rs.getString("state"),rs.getString("Country"),rs.getString("city"),rs.getString("contact_no"),rs.getString( "ssn"),rs.getString( "username"),rs.getString( "email")));
-    
-                }
-                col_accnum.setCellValueFactory(new PropertyValueFactory<>("Account_number"));
-                col_fname.setCellValueFactory(new PropertyValueFactory<>("First_name"));
-                col_lname.setCellValueFactory(new PropertyValueFactory<>("Last_name"));
-                col_mname.setCellValueFactory(new PropertyValueFactory<>("Middle_name"));
-            }
+            col_accnum.setCellValueFactory(new PropertyValueFactory<>("Account_number"));
+            col_fname.setCellValueFactory(new PropertyValueFactory<>("First_name"));
+            col_lname.setCellValueFactory(new PropertyValueFactory<>("Last_name"));
+            col_mname.setCellValueFactory(new PropertyValueFactory<>("Middle_name"));
+        }
     }
 
