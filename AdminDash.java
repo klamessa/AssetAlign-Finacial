@@ -1,4 +1,4 @@
-import com.example.AssetAlign-Financial.Connectivity;
+import com.example.AssetAlign-Financial.Connection;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.transformation.FilteredList;
