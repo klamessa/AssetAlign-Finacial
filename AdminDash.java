@@ -118,6 +118,11 @@ public void initialize(URL url, ResourceBundle resourceBundle) {
             col_fname.setCellValueFactory(new PropertyValueFactory<>("First_name"));
             col_lname.setCellValueFactory(new PropertyValueFactory<>("Last_name"));
             col_mname.setCellValueFactory(new PropertyValueFactory<>("Middle_name"));
+            col_dob.setCellValueFactory(new PropertyValueFactory<>("date_of_birth"));
+            col_address.setCellValueFactory(new PropertyValueFactory<>("address"));
+            col_zip.setCellValueFactory(new PropertyValueFactory<>("zipp_code"));
+            col_state.setCellValueFactory(new PropertyValueFactory<>("state"));
+        
         }
     }
 
