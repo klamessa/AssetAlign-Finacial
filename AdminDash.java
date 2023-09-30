@@ -127,6 +127,10 @@ public void initialize(URL url, ResourceBundle resourceBundle) {
             col_last4ssn.setCellValueFactory(new PropertyValueFactory<>("ssn"));
             col_username.setCellValueFactory(new PropertyValueFactory<>("username"));
             col_email.setCellValueFactory(new PropertyValueFactory<>("email"));
+
+            
+            table.setItems(clientsList);
+            state_ComboBox.setItems(stateList);
         }
     }
 
