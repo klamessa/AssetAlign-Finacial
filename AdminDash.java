@@ -122,7 +122,11 @@ public void initialize(URL url, ResourceBundle resourceBundle) {
             col_address.setCellValueFactory(new PropertyValueFactory<>("address"));
             col_zip.setCellValueFactory(new PropertyValueFactory<>("zipp_code"));
             col_state.setCellValueFactory(new PropertyValueFactory<>("state"));
-        
+            col_city.setCellValueFactory(new PropertyValueFactory<>("city"));
+            col_contactnum.setCellValueFactory(new PropertyValueFactory<>("contact_no"));
+            col_last4ssn.setCellValueFactory(new PropertyValueFactory<>("ssn"));
+            col_username.setCellValueFactory(new PropertyValueFactory<>("username"));
+            col_email.setCellValueFactory(new PropertyValueFactory<>("email"));
         }
     }
 
