@@ -143,7 +143,18 @@ public void initialize(URL url, ResourceBundle resourceBundle) {
                      if(ConnTable.getLast_name().toLowerCase().indexOf(searchKeyword) >-1){
                          return true;
                      }
-                }
+                   else
+                         if(ConnTable.getFirst_name().toLowerCase().indexOf(searchKeyword) >-1) {
+                             return true;
+                         }
+                     else
+                         if ((ConnTable.getAccount_number().toString().indexOf(searchKeyword) >-1)) {
+                               return true;
+                         }else
+                             return false;
+                });
+            });
+                                          
 
            
 
