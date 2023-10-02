@@ -133,5 +133,17 @@ public void initialize(URL url, ResourceBundle resourceBundle) {
             state_ComboBox.setItems(stateList);
             FilteredList<ConnTable> filteredData = new FilteredList<>(clientsList, b -> true );
 
+            search_db_fld.textProperty().addListener((observable, oldValue, newValue) -> {
+                filteredData.setPredicate(ConnTable ->{
+                     if(newValue.isEmpty() || newValue.isBlank() || newValue == null){
+                         return true;
+                     }
+
+                     String searchKeyword = newValue.toLowerCase();
+                     if(ConnTable.getLast_name().toLowerCase().indexOf(searchKeyword) >-1){
+                         return true;
+                     }
+                }
+
            
 
