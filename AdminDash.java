@@ -131,6 +131,7 @@ public void initialize(URL url, ResourceBundle resourceBundle) {
             
             table.setItems(clientsList);
             state_ComboBox.setItems(stateList);
-        }
-    }
+            FilteredList<ConnTable> filteredData = new FilteredList<>(clientsList, b -> true );
+
+           
 
