@@ -156,6 +156,9 @@ public void initialize(URL url, ResourceBundle resourceBundle) {
             });
 
             sortedData.comparatorProperty().bind(table.comparatorProperty());
+            table.setItems(sortedData);
+
+            
           
                                           
 
