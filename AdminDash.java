@@ -158,6 +158,9 @@ public void initialize(URL url, ResourceBundle resourceBundle) {
             sortedData.comparatorProperty().bind(table.comparatorProperty());
             table.setItems(sortedData);
 
+            Connectivity connectivity = new Connectivity();
+            Connection conc= connectivity.getConnection();
+
             
           
                                           
