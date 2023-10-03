@@ -159,7 +159,7 @@ public void initialize(URL url, ResourceBundle resourceBundle) {
             table.setItems(sortedData);
 
             Connecttion connection = new Connection();
-            Connection conc= connectivity.getConnection();
+            Connection cone = connecection.getConnection();
 
             
           
