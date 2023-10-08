@@ -20,6 +20,6 @@ public class Checking_account {
         return account_balance.get();
     }
      public void setAccount_balance(String account_bal){
-        this.account_balance.set(account_bal);
+        this.account_balance.set(account_Bal);
     }
 }
