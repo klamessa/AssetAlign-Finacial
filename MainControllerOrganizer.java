@@ -53,7 +53,7 @@ public class MainControllerOrganizer implements Initializable {
     }
 
     @FXML
-        protected void AdminDash(ActionEvent event) throws IOException {
+        protected void MainControlOrg(ActionEvent event) throws IOException {
                 fxml = FXMLLoader.load(getClass().getResource("AdminDashboard.fxml"));
             Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
             Scene scene = new Scene(fxml);
