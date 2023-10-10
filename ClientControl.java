@@ -23,7 +23,8 @@ public class ClientLoginController {
     private Label phoneLabel, emailLabel, UserLabel, passwordLabel, welcomeLabel, passwordShow, TimeDateLabel;
     @FXML
     ImageView BanklogoGif;
-    @FXML TextField nameTextField;  @FXML private PasswordField passwordField;
+    @FXML 
+    TextField nameTextField;  @FXML private PasswordField passwordField;
     @FXML
     private Button Home, SignupButton, loginButton;
     @FXML
