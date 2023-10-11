@@ -16,9 +16,11 @@ public class Savings_account {
         public void setSavings_account_number(String saving_acc_number){
             this.Savings_account_number.set(saving_acc_number);
         }
+    
         public String getAccount_number() {
             return Account_number.get();
         }
+    
         public String getAccount_balance(){
             return account_balance.get();
         }
@@ -26,5 +28,5 @@ public class Savings_account {
         public void setAccount_balance(String acc_number){
             this.account_balance.set(acc_number);
         }
-}
+     }
 }
